@@ -122,7 +122,6 @@ function expressionMatter(a, b, c) {
     let max = Math.max(...arr);
     return max;
 }
-console.log(expressionMatter(1, 3, 1));
 
 
 

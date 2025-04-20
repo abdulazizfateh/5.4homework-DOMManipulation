@@ -144,9 +144,8 @@ const data = [
 
 // USER CARD
 const userCardEl = document.querySelector(".user_card");
+const userCardImageaEl = document.querySelector(".user_card_image");
 
-userCardEl.addEventListener("click", () => {
+userCardImageaEl.addEventListener("click", () => {
     userCardEl.classList.toggle("resize");
-    console.log(10);
-
 }) 
